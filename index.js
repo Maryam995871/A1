@@ -1,6 +1,6 @@
 // qiuz 1
-//let nums ="123";
-//console.log(+"123"+7);
+let nums ="123";
+console.log(+"123"+7);
 
 
 //quiz 2
