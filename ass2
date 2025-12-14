@@ -1,0 +1,153 @@
+// QZ 1
+  //function details(dir,file){
+  //console.log(dir);
+  //console.log(file);
+ // } 
+ // details({__dirname},{__filename})
+ 
+  // QZ 2
+ // function test(){
+ //  const path =require("node:path");
+ //console.log(path.basename("/user/files/report.pdf"))
+  //}test ()
+
+
+   // QZ 3
+ 
+ // function check(num){
+ // const path =require("node:path");
+  // console.log(path.format(num))
+  // }
+  // check({dir:"/folder",name:"app",ext:".js"})
+   
+
+   // QZ 4 
+  // function test(){
+  //  const path = require ("node:path")
+  // console.log(path.extname("/docs/readme.md"))
+  // }test()
+
+    // QZ 5
+//function test(){
+// const path= require("node:path")
+ //console.log(path.parse("/home/app/main.js"))
+// console.log(path.basename( "ext: '.js', name: 'main' "))
+//}
+//test()
+
+ // QZ 6
+ // function test(){
+ // const path =require("node:path")
+// console.log(path.isAbsolute("/home/user/file.txt"))
+// }
+ //test()
+
+  // QZ 7
+  // function check(){
+  // const path =require("node:path");
+ // console.log(path.join("scr","components","App.js"));
+ //}
+ //check()
+
+  // QZ 8
+  //function test(txt){
+  // const path= require("node:path")
+  // console.log(path.resolve(txt));
+ // } test("./index.js")
+
+
+  // QZ 9
+  //function test(){
+  // const path =require("node:path")
+  // console.log(path.join("/folder1","folder2","/file.txt"))
+  //}
+   // test()
+
+
+
+// QZ 10 
+//  function cut(){
+//  const fs=require("node:fs")
+//  const absolutePath="path/to/file.txt";
+//  fs.unlink(absolutePath,(err)=>{
+//   if(err){
+//     console.log(err)
+//   }else{
+//   console.log("file.txt is deleted")}
+//  })}
+//   cut()
+ 
+
+
+  // // // QZ 11  
+  //  function create(){
+  // const fs=require("node:fs")
+  // fs.mkdirSync("src/user",{recursive:true})
+  // console.log("Success")}
+  // create()
+  
+    // QZ 12
+  //   function trigged(){
+  //  const {EventEmitter}= require("node:events");
+  //  const event= new EventEmitter();
+  //  event.on("start",()=>{
+  //    console.log("Welcome event triggered")
+  //   })
+  //   event.emit("start")}
+   //trigged()
+
+  
+ // // QZ 13  
+  // function check(){
+  // const {EventEmitter}= require("node:events")
+  // const event =new EventEmitter()
+  // event.on("login",()=>{
+  //  console.log("User Logged in :Ahmed")
+  // })
+  // event.emit("login")}
+  // check()
+  
+
+
+      // QZ 14   
+    //   function read(){
+    //  const fs=require("node:fs")
+    //   const path=require("node:path")
+    //   const absolutePath=path.resolve("./notes.txt")
+    //   const data= fs.readFileSync(absolutePath,{encoding:"utf-8"})
+    //    console.log(data)}
+    //   read()
+
+     
+  // QZ 15   
+     
+  // function save(){
+  //  const fs= require("node:fs")
+  //  const path =require("node:path")
+  //  const absolutePath= path.resolve("./async.txt")
+  //  fs.writeFile(absolutePath,"Async Save",(err)=>{
+  //   if(err){
+  //     console.log(err)
+  //   }
+  //  })
+  // }
+  //     save()
+   
+      // QZ 16
+         
+      // function check(){
+      //  const fs=require("node:fs")
+      //  const exist= fs.existsSync("./notes.txt");
+      //  console.log(exist)}
+      //   check()
+    
+       
+      // QZ 17   
+    
+    //  function test(){
+    //  const os=require("node:os")
+    //  return {platform:os.platform(),Arch :os.arch()
+
+    //  }
+    //  }
+    //  console.log(test())
