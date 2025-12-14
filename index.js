@@ -1,20 +1,25 @@
 // qiuz 1
-let nums ="123";
+/*function test(nums){
 console.log(+"123"+7);
-
+}
+test(123)*/
+//#####
 
 //quiz 2
-/*let number =0;
+/*function check(number){
 if(number == 0)
 {
     console.log("Invalid");
 }
 else{
     console.log(`no`)
-}*/
+}} 
+check(0);*/
 
+//####
 // quiz 3
-/*let print =[1,2,3,4,5,6,7,8,9,10];
+/*function count(...print){
+
 for(let i=0;i<print.length; i++)
 {
     if(print[i]%2===0 )
@@ -25,27 +30,32 @@ else
     {
  console.log(print[i]);
 }
+ 
+}} count(1,2,3,4,5,6,7,8,9,10);*/
 
-}*/
-
-
+//#####
 //quiz 4
-/*let numbers =[1,2,3,4,5];
+/*function test(numbers){
+
 let final=numbers.filter((ele)=>{
     return ele%2 ==0;
 })
-console.log(final);*/
+ console.log(final);}
+   test([1,2,3,4,5]) */
 
+
+   //####
 //quiz 5
-
-/*let num1=[1,2,3];
-let num2=[4,5,6];
+ /*function counts(num1,num2){
  let nums = num1.concat(num2);
- console.log(nums);*/
+ console.log(nums);
+}
+ counts([1,2,3],[4,5,6])*/
 
+
+ //#####
 //quiz 6
-
- /*let day = 2;
+ /*function test(day){
 switch(day)
 {
     case 1 :
@@ -82,19 +92,22 @@ case 4 :
 default:
 
     console.log("check again please");
-}*/
+}} test(2)*/
 
+
+//####
 //quiz 7
-/*let nums= ["a","ab","abc" ];
+/*function check(nums){
 let test =nums.map(( ele)=>
 {
     return ele.length;
 })
-console.log(test);*/
+console.log(test)}
+   check(["a","ab","abc"]);*/
 
-
+//###
 //quiz 8
-/*let num = [15];
+/* function test(num){
 let check= num.map(function(ele)
     {
 if(num% 3==0)
@@ -110,11 +123,11 @@ if(num% 3==0)
    else {
     console.log( "num is not divisible by 3");
 
-    }
-});
+    } 
+    });
+}
  
- console.log(check);*/
-
+    test([15]);*/
 
  //حل اخر لسؤال التامن 
  /*function check ( nums)
@@ -125,23 +138,26 @@ if(num% 3==0)
 console.log( check(15));*/
 
 
+//####
 //quaiz 9
+//function square(num){
+// return num**2
+// }
+// console.log(square(5));
 
-/*let square = (num)=> num**2 ;
-console.log(square(5));*/
+//#####
+//qz 10
+ /*function test(name,age){
+  const person ={
+   name:`John`,
+    age:25
+ }
+  
+ console.log(`${name} is ${age} years old ` )};
+  test(`john`,25)
+ */
 
-
-//qauiz 10
- /*const person ={
-    name: `John`,
-    age:25,
-    say : function (){
-    return`${person.name} is ${person.age} years old`;
-  },
- }   ; 
- console.log(person.say());*/
-
-
+//####
   //qauiz 11
   /*function sum(...number)
   {
@@ -155,7 +171,7 @@ console.log(square(5));*/
   }
  console.log( sum(1,2,3,4,5));*/
 
-
+//####
 //QZ  12
 /* 
 setTimeout(()=>
@@ -164,8 +180,9 @@ console.log("Success")
 },3000)*/
 
 
-//qauiz 13
-   /* let large = [1,3,7,2,4];
+//####
+//QZ 13
+/*function check (large){
 
    let test= large.filter(function(ele)
  
@@ -179,26 +196,14 @@ else{
 
 }
 }});
-console.log(test);*/
+console.log(test)};
+check([1,3,7,2,4])*/
 
+//#####
 
-// QZ 14
 //qauiz 14 
- 
- /* let yourName = {
-
-    name:`John`,
-    age :30,
-   }
-   for(let key in yourName ){
-   console.log(key)};
- 
-
-result.push(yourName);
- console.log(result);*/
-//======
 /*
-let result=[];
+function test(result){
  let yourName = {
 
     name:`John`,
@@ -207,35 +212,22 @@ let result=[];
    for(let key in yourName ){
    console.log(key)};
  result.push();
-console.log(result);*/
+console.log(result)};
+test([]);*/
 
-//=====
-
- /*let yourName = {
-
-    name:`John`,
-    age :30,
-   }
-   for(let key in yourName ){
-   console.log(key)};
-
-let result=yourName.split("").map((ele)=>
-{
-  console.log(key);
-}).join("");
-console.log(result);*/
-
-
+//######
 
 //qauiz 15
 
-/*let n="The quick broken fox";
-let y =n.split(`""`).filter((ele)=>
+/*function check(text){
+let y =text.split(`""`).filter((ele)=>
 {
     return(ele)
 }      
 );
-console.log(y)*/
+console.log(y)};
+check("The quick broken fox");*/
+
 
 //part2###
 
